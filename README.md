@@ -1,18 +1,29 @@
-<b>Project name</b>: Tic-Tac-Toe
-
-<b>Project description</b>: this is a simple Tic-Tac-Toe game, created during Eleks Frontend Camp 2018. 
-
-<b>Used libraries and frameworks</b>:
-It is built on HTML, CSS, JS, frontend is made using Grid, backend - using Node server and websockets.
-It is suitable both for PC and mobile.
-
-You can play it on the <b>Github pages</b>: (link) or clone the repository and start it on your PC or smartphone (npm install; npm start).
-
-<b>Mockup</b>: https://wireframepro.mockflow.com/view/tic-tak-toe-by-mira
-
-<b>My teacher's Github page</b>: https://github.com/dosandk (Volodymyr Shevchuk)
-
-<b>Eleks Frontend Camp Facebook page</b>: (...)
+* Course curator - [Volodymyr Shevchuk](https://github.com/dosandk)
+* Front-camp [facebook](https://www.facebook.com/groups/270300106928894)
 
 
+## Project name: Tic-Tac-Toe
 
+[Demo]()  
+> Description: this is a simple 3x3 Tic-Tac-Toe game. You can play with computer or play with friend.
+
+## Tech stack
+
+* javascript 
+* html/css
+* Node server
+* websockets.
+
+
+## Mockups
+[Link](https://wireframepro.mockflow.com/view/tic-tak-toe-by-mira)   
+
+## Contribution guide
+
+[Please check our guide](link-to-contribution-guide)
+
+## TODO
+
+* add an offline support
+* add player authentification
+* add sounds (for win/lose event)
