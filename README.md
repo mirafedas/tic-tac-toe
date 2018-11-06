@@ -20,7 +20,7 @@
 
 ## Contribution guide
 
-[Please check our guide](link-to-contribution-guide)
+[Please check our guide](https://github.com/myrosvas/tic-tac-toe/blob/master/Contribution-guide)
 
 ## TODO
 
