@@ -3,9 +3,14 @@ import { playerTurn } from './client.js';
 let xTurn = true;
 let gameEnd = false;
 let playMode = 'comp';
+const id = Math.random();
 
-// const drawInSquare = event => {
-//   const clickedSquare = event.target.closest('div');
+
+// Selecting the game mode: you can play with computer or play with friend (via websocket)
+const choosePlayMode = event => {
+  playMode = event.target.value;
+};
+
 const drawInSquare = className => {
   const clickedSquare = document.getElementsByClassName(className)[0];
   if (clickedSquare.used || gameEnd) {
@@ -141,6 +146,11 @@ window.onload = () => {
     // element.addEventListener('click', drawInSquare);
     document.getElementsByClassName('btn-new-game')[0].addEventListener('click', resetGame);
   });
+
+  const radiobtns = document.getElementsByName('play-mode');
+  radiobtns[0].addEventListener('click', choosePlayMode);
+  radiobtns[1].addEventListener('click', choosePlayMode);
+
 };
 
 // Computer's logic
@@ -187,10 +197,18 @@ const playerClick = event => {
 
   // if we play with friend
   const data = {
-    className: clickedSquare.className
+    className: clickedSquare.className,
+    id
   }
 
   playerTurn(JSON.stringify(data));
+}
+
+// Styles
+var dpt = window.devicePixelRatio;
+var widthM = window.screen.width;
+var widthH = window.screen.height;
+if (widthM*dpt < 976) { document.write('<meta name="viewport" content="width=600, user-scalable=yes">');
 }
 
 export default drawInSquare;
