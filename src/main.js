@@ -143,7 +143,6 @@ window.onload = () => {
 
   squares.forEach(element => {
     element.addEventListener('click', playerClick);
-    // element.addEventListener('click', drawInSquare);
     document.getElementsByClassName('btn-new-game')[0].addEventListener('click', resetGame);
   });
 
