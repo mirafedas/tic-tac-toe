@@ -4,7 +4,7 @@
 
 ## Project name: Tic-Tac-Toe
 
-[Demo]()  
+[Demo](https://tic-tac-toe-for-efc.herokuapp.com/)  
 > This is a simple 3x3 Tic-Tac-Toe game. You can play with computer or play with friend.
 
 ## Tech stack
@@ -27,3 +27,5 @@
 * add an offline support
 * add player authentification
 * add sounds (for win/lose event)
+* add tests
+* add Continuous integration (for example “Travis”) 
