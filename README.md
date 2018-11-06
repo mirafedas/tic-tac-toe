@@ -5,7 +5,7 @@
 ## Project name: Tic-Tac-Toe
 
 [Demo]()  
-> Description: this is a simple 3x3 Tic-Tac-Toe game. You can play with computer or play with friend.
+> This is a simple 3x3 Tic-Tac-Toe game. You can play with computer or play with friend.
 
 ## Tech stack
 
