@@ -63,7 +63,7 @@ const displayScores = whoWins => {
 };
 
 const isWinner = () => {
-  const squares = Array.from(document.getElementsByClassName('battlefield__square'));
+  const squares = Array.from(document.getElementsByClassName('battlefield-square'));
   // checking first line
   if (squares[0].value === 'X' && squares[1].value === 'X' && squares[2].value === 'X') {
     return 'X';
@@ -139,7 +139,7 @@ const isWinner = () => {
 };
 
 window.onload = () => {
-  const squares = Array.from(document.getElementsByClassName('battlefield__square'));
+  const squares = Array.from(document.getElementsByClassName('battlefield-square'));
 
   squares.forEach(element => {
     element.addEventListener('click', playerClick);
@@ -156,7 +156,7 @@ window.onload = () => {
 // Computer's logic
 
 const compTurn = zeroIcon => {
-  const squares = Array.from(document.getElementsByClassName('battlefield__square'));
+  const squares = Array.from(document.getElementsByClassName('battlefield-square'));
   const notUsedSquares = squares.filter(el => !el.used);
   xTurn = !xTurn;
 
@@ -173,7 +173,7 @@ const compTurn = zeroIcon => {
 
 // eslint-disable-next-line no-unused-vars
 const resetGame = () => {
-  const squares = Array.from(document.getElementsByClassName('battlefield__square'));
+  const squares = Array.from(document.getElementsByClassName('battlefield-square'));
   squares.forEach(square => {
     square.innerText = '';
     square.used = false;
