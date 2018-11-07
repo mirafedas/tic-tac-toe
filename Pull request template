@@ -5,7 +5,7 @@ Please include the following info in your pull request message:
 
 Pull request example:
 
-Issue #2: Offline support added.
+Task #2: Offline support added.
 I configured webworker, now when the connection is lost, the game is saved and users see message: 'Connection is lost',
 and when the connection is back, they can continue from the point they stopped. [Here you can add some more info about 
 your changes].
