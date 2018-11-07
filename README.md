@@ -4,7 +4,7 @@
 
 ## Project name: Tic-Tac-Toe
 
-[Demo](https://tic-tac-toe-for-efc.herokuapp.com/)  
+[Demo](https://mira-tic-tac-toe.herokuapp.com/)  
 > This is a simple 3x3 Tic-Tac-Toe game. You can play with computer or play with friend.
 
 ## Tech stack
