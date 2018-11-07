@@ -24,8 +24,8 @@
 
 ## TODO
 
-* add an offline support
-* add player authentification
-* add sounds (for win/lose event)
-* add tests
-* add Continuous integration (for example “Travis”) 
+1. add an offline support
+2. add player authentification
+3. add sounds (for win/lose event)
+4. add tests
+5. add Continuous integration (for example “Travis”) 
