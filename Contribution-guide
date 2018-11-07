@@ -10,7 +10,8 @@ To become a contributor you need to follow few simple steps:
 
 5. While commiting your changes, please add a commit message e.g. '#2 Player identification added'
 
-6. Push changes to your forked repository and open a pull request. [How should a pull request look like]()
+6. Push changes to your forked repository and open a pull request. 
+[How should a pull request look like](https://github.com/myrosvas/tic-tac-toe/blob/master/Pull%20request%20template)
 I would be grateful if you could add some brief description for your changes. 
 
 7. If you want to propose some changes that are not on the TODO list 
