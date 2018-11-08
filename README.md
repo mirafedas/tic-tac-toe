@@ -30,7 +30,7 @@ If you want to start a new game, both of you need to click the button 'New game'
 * javascript 
 * html/css
 * Node server
-* websockets.
+* websockets
 
 
 ## Mockups
