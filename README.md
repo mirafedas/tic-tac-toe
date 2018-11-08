@@ -6,6 +6,7 @@
 
 [Demo](https://mira-tic-tac-toe.herokuapp.com/)  
 > This is a simple 3x3 Tic-Tac-Toe game. You can play with computer or play with friend.
+
 To play on demo (Heroku):
 1. Open the page with demo;
 2. If you want to play with computer - just start playing;
